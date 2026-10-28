@@ -1,0 +1,10 @@
+{
+  "project": "hashkey-insurance-ai",
+  "commit_sha": "66b7949cf9f9b1c8ea2f7aee1c34c89acb1de2ff",
+  "timestamp": "2026-10-28T07:44:05.346646Z",
+  "score": 100,
+  "theme": "Institutional RWA & DeFi Exploit Parametric Insurance",
+  "blockchain": "HashKey Chain (EVM)",
+  "contract": "HashKeyParametricInsurance.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: hashkey-insurance-ai ($HKINS)\n    Chain: HashKey Chain (EVM)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (HashKeyParametricInsurance.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
