@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "hashkey-insurance-ai": {
+      "tools": [
+        {
+          "name": "quote_rwa_insurance_policy",
+          "description": "Calculates institutional RWA insurance premium and coverage on HashKey Chain",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "asset_value": {
+                "type": "number"
+              },
+              "risk_score": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "asset_value",
+              "risk_score"
+            ]
+          }
+        },
+        {
+          "name": "verify_zk_kyc_claim",
+          "description": "Verifies ZK-KYC cryptographic claim proof before parametric payout release",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "policy_id": {
+                "type": "string"
+              },
+              "oracle_proof": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "policy_id",
+              "oracle_proof"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
